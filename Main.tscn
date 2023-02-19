@@ -1,0 +1,577 @@
+[gd_scene load_steps=77 format=2]
+
+[ext_resource path="res://Assets/Scripts/Main.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Images/HomeMenu/HeaderIcons/Nintendo-Switch-Icon-Frame-1.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Images/HomeMenu/HeaderIcons/Nintendo-Switch-Icon-Frame-2.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Themes/ProfileIcon.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Assets/Images/HomeMenu/HeaderIcons/Nintendo-Switch-Icon.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Images/HomeMenu/HeaderIcons/wifi-dm.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Fonts/NINTENDOSWITCHUI.TTF" type="DynamicFontData" id=7]
+[ext_resource path="res://Assets/Images/HomeMenu/HeaderIcons/battery-dm.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining.png" type="Texture" id=9]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining-Frame-2.png" type="Texture" id=10]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining-Frame-1.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers-Frame-2.png" type="Texture" id=12]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3-Frame-1.png" type="Texture" id=13]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3-Frame-2.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3.png" type="Texture" id=15]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2-Frame-2.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers-Frame-1.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2.png" type="Texture" id=18]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3.png" type="Texture" id=20]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2-Frame-1.png" type="Texture" id=22]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3-Frame-2.png" type="Texture" id=23]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9-Frame-1.png" type="Texture" id=24]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3-Frame-1.png" type="Texture" id=25]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9-Frame-2.png" type="Texture" id=26]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-switch-online.png" type="Texture" id=27]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/news-dm.png" type="Texture" id=28]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm.png" type="Texture" id=29]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm.png" type="Texture" id=30]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm.png" type="Texture" id=31]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm.png" type="Texture" id=32]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm.png" type="Texture" id=33]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/news-dm-Frame-2.png" type="Texture" id=34]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-switch-online-Frame-2.png" type="Texture" id=35]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-switch-online-Frame-1.png" type="Texture" id=36]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm-Frame-2.png" type="Texture" id=37]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/news-dm-Frame-1.png" type="Texture" id=38]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm-Frame-2.png" type="Texture" id=39]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm-Frame-1.png" type="Texture" id=40]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm-Frame-2.png" type="Texture" id=41]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm-Frame-1.png" type="Texture" id=42]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm-Frame-1.png" type="Texture" id=43]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm-Frame-2.png" type="Texture" id=44]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm-Frame-2.png" type="Texture" id=45]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm-Frame-1.png" type="Texture" id=46]
+[ext_resource path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm-Frame-1.png" type="Texture" id=47]
+[ext_resource path="res://Assets/Images/HomeMenu/FooterIcons/handheld-mode-dm.png" type="Texture" id=48]
+[ext_resource path="res://Assets/Themes/Footer.tres" type="Theme" id=49]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest-Frame-1.png" type="Texture" id=50]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest-Frame-2.png" type="Texture" id=51]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest.png" type="Texture" id=52]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company.png" type="Texture" id=53]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company-Frame-1.png" type="Texture" id=54]
+[ext_resource path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company-Frame-2.png" type="Texture" id=55]
+[ext_resource path="res://Assets/Sounds/Logo01 (Click Only).wav" type="AudioStream" id=56]
+[ext_resource path="res://Assets/Sounds/Select User.wav" type="AudioStream" id=57]
+[ext_resource path="res://Assets/Sounds/standby.wav" type="AudioStream" id=58]
+[ext_resource path="res://Assets/Sounds/Move Selector.wav" type="AudioStream" id=59]
+
+[sub_resource type="AnimatedTexture" id=1]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 2 )
+frame_1/texture = ExtResource( 3 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 7 )
+
+[sub_resource type="AnimatedTexture" id=3]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 11 )
+frame_1/texture = ExtResource( 10 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=4]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 25 )
+frame_1/texture = ExtResource( 23 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=5]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 24 )
+frame_1/texture = ExtResource( 26 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=6]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 22 )
+frame_1/texture = ExtResource( 16 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=7]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 13 )
+frame_1/texture = ExtResource( 14 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=8]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 17 )
+frame_1/texture = ExtResource( 12 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=16]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 54 )
+frame_1/texture = ExtResource( 55 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=17]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 50 )
+frame_1/texture = ExtResource( 51 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=9]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 36 )
+frame_1/texture = ExtResource( 35 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=10]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 38 )
+frame_1/texture = ExtResource( 34 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=11]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 40 )
+frame_1/texture = ExtResource( 39 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=12]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 46 )
+frame_1/texture = ExtResource( 41 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=13]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 43 )
+frame_1/texture = ExtResource( 44 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=14]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 42 )
+frame_1/texture = ExtResource( 45 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=15]
+flags = 4
+frames = 2
+fps = 1.0
+frame_0/texture = ExtResource( 47 )
+frame_1/texture = ExtResource( 37 )
+frame_1/delay_sec = 0.0
+
+[node name="Home Panel" type="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="UserIconAspectRatioContainer" type="AspectRatioContainer" parent="."]
+anchor_left = 0.0320312
+anchor_right = 0.0742188
+anchor_bottom = 0.147222
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="UserProfileButton" type="TextureButton" parent="UserIconAspectRatioContainer"]
+margin_top = 20.9999
+margin_right = 64.0
+margin_bottom = 84.9999
+texture_normal = ExtResource( 5 )
+texture_hover = SubResource( 1 )
+
+[node name="UserProfileLabel" type="Label" parent="UserIconAspectRatioContainer/UserProfileButton"]
+visible = false
+anchor_left = -0.185185
+anchor_top = 1.11111
+anchor_right = 2.14815
+anchor_bottom = 1.53704
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "NX's Profile"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="TimeLabel" type="Label" parent="."]
+anchor_left = 0.792188
+anchor_top = 0.0625
+anchor_right = 0.841406
+anchor_bottom = 0.0916667
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "00:00"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="BatteryPercentageLabel" type="Label" parent="."]
+anchor_left = 0.875
+anchor_top = 0.0638889
+anchor_right = 0.924219
+anchor_bottom = 0.0930556
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "100%"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="WiFiLabel" type="TextureRect" parent="."]
+anchor_left = 0.846875
+anchor_top = 0.0638889
+anchor_right = 0.86875
+anchor_bottom = 0.0916667
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="BatteryLabel" type="TextureRect" parent="."]
+anchor_left = 0.925781
+anchor_top = 0.0625
+anchor_right = 0.953906
+anchor_bottom = 0.0902778
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="SoftwareScrollContainer" type="ScrollContainer" parent="."]
+anchor_top = 0.272222
+anchor_right = 0.999219
+anchor_bottom = 0.680556
+margin_right = -0.000366211
+margin_bottom = -19.0005
+scroll_vertical_enabled = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="SoftwareHBoxContainer" type="HBoxContainer" parent="SoftwareScrollContainer"]
+margin_right = 2138.0
+margin_bottom = 263.0
+custom_constants/separation = 6
+
+[node name="SoftwareIcon1" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_right = 262.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 9 )
+texture_hover = SubResource( 3 )
+
+[node name="SoftwareIcon2" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 268.0
+margin_right = 530.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 15 )
+texture_hover = SubResource( 4 )
+
+[node name="SoftwareIcon3" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 536.0
+margin_right = 798.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 19 )
+texture_hover = SubResource( 5 )
+
+[node name="SoftwareIcon4" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 804.0
+margin_right = 1066.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 18 )
+texture_hover = SubResource( 6 )
+
+[node name="SoftwareIcon5" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 1072.0
+margin_right = 1334.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 20 )
+texture_hover = SubResource( 7 )
+
+[node name="SoftwareIcon6" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 1340.0
+margin_right = 1602.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 21 )
+texture_hover = SubResource( 8 )
+
+[node name="SoftwareIcon7" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 1608.0
+margin_right = 1870.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 53 )
+texture_hover = SubResource( 16 )
+
+[node name="SoftwareIcon8" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+margin_left = 1876.0
+margin_right = 2138.0
+margin_bottom = 263.0
+texture_normal = ExtResource( 52 )
+texture_hover = SubResource( 17 )
+
+[node name="NavigationContainer" type="HBoxContainer" parent="."]
+anchor_left = 0.180469
+anchor_top = 0.708333
+anchor_right = 0.817969
+anchor_bottom = 0.890278
+custom_constants/separation = 20
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton1" type="TextureButton" parent="NavigationContainer"]
+margin_left = 33.0
+margin_right = 123.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 27 )
+texture_hover = SubResource( 9 )
+
+[node name="NavigationButton1Label" type="Label" parent="NavigationContainer/NavigationButton1"]
+visible = false
+anchor_left = -0.766667
+anchor_top = 0.732824
+anchor_right = 1.84444
+anchor_bottom = 0.89313
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Nintendo Switch Online"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton2" type="TextureButton" parent="NavigationContainer"]
+margin_left = 143.0
+margin_right = 233.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 28 )
+texture_hover = SubResource( 10 )
+
+[node name="NavigationButton1Label2" type="Label" parent="NavigationContainer/NavigationButton2"]
+visible = false
+anchor_left = 0.122222
+anchor_top = 0.725191
+anchor_right = 0.877778
+anchor_bottom = 0.885496
+margin_top = 1.0
+margin_bottom = 1.0
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "News"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton3" type="TextureButton" parent="NavigationContainer"]
+margin_left = 253.0
+margin_right = 343.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 29 )
+texture_hover = SubResource( 11 )
+
+[node name="NavigationButton1Label3" type="Label" parent="NavigationContainer/NavigationButton3"]
+visible = false
+anchor_left = -0.388889
+anchor_top = 0.763359
+anchor_right = 1.43333
+anchor_bottom = 0.923664
+margin_top = -4.0
+margin_bottom = -4.0
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Nintendo eShop"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton4" type="TextureButton" parent="NavigationContainer"]
+margin_left = 363.0
+margin_right = 453.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 31 )
+texture_hover = SubResource( 12 )
+
+[node name="NavigationButton1Label4" type="Label" parent="NavigationContainer/NavigationButton4"]
+visible = false
+anchor_left = 0.111111
+anchor_top = 0.755725
+anchor_right = 0.9
+anchor_bottom = 0.916031
+margin_top = -3.0
+margin_bottom = -3.0
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Album"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton5" type="TextureButton" parent="NavigationContainer"]
+margin_left = 473.0
+margin_right = 563.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 30 )
+texture_hover = SubResource( 13 )
+
+[node name="NavigationButton1Label5" type="Label" parent="NavigationContainer/NavigationButton5"]
+visible = false
+anchor_left = -0.122222
+anchor_top = 0.763359
+anchor_right = 1.16667
+anchor_bottom = 0.923664
+margin_top = -4.0
+margin_bottom = -4.0
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Controllers"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton6" type="TextureButton" parent="NavigationContainer"]
+margin_left = 583.0
+margin_right = 673.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 32 )
+texture_hover = SubResource( 14 )
+
+[node name="NavigationButton1Label6" type="Label" parent="NavigationContainer/NavigationButton6"]
+visible = false
+anchor_left = -0.277778
+anchor_top = 0.770992
+anchor_right = 1.53333
+anchor_bottom = 0.931298
+margin_top = -5.0
+margin_bottom = -5.0
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "System Settings"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NavigationButton7" type="TextureButton" parent="NavigationContainer"]
+margin_left = 693.0
+margin_right = 783.0
+margin_bottom = 131.0
+texture_normal = ExtResource( 33 )
+texture_hover = SubResource( 15 )
+
+[node name="NavigationButton1Label7" type="Label" parent="NavigationContainer/NavigationButton7"]
+visible = false
+anchor_left = -0.111111
+anchor_top = 0.732824
+anchor_right = 1.27778
+anchor_bottom = 0.89313
+custom_colors/font_color = Color( 0.0313726, 0.717647, 0.764706, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Sleep Mode"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Footer" type="HSeparator" parent="."]
+anchor_top = 0.923611
+anchor_right = 1.0
+anchor_bottom = 0.929167
+theme = ExtResource( 49 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="TextureRect" type="TextureRect" parent="Footer"]
+anchor_left = 0.0210938
+anchor_top = 2.75
+anchor_right = 0.0757812
+anchor_bottom = 10.75
+texture = ExtResource( 48 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NintendoSwitchClickStartupAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 56 )
+autoplay = true
+
+[node name="UserSelectAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 57 )
+
+[node name="MoveSelectorAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 59 )
+
+[node name="StandbyAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 58 )
+
+[connection signal="mouse_entered" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_mouse_entered"]
+[connection signal="mouse_exited" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_mouse_exited"]
+[connection signal="pressed" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon1" to="." method="_on_SoftwareIcon1_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon1" to="." method="_on_SoftwareIcon1_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon2" to="." method="_on_SoftwareIcon2_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon2" to="." method="_on_SoftwareIcon2_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon3" to="." method="_on_SoftwareIcon3_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon3" to="." method="_on_SoftwareIcon3_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon4" to="." method="_on_SoftwareIcon4_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon4" to="." method="_on_SoftwareIcon4_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon5" to="." method="_on_SoftwareIcon5_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon5" to="." method="_on_SoftwareIcon5_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon6" to="." method="_on_SoftwareIcon6_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon6" to="." method="_on_SoftwareIcon6_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon7" to="." method="_on_SoftwareIcon7_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon7" to="." method="_on_SoftwareIcon7_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon8" to="." method="_on_SoftwareIcon8_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon8" to="." method="_on_SoftwareIcon8_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton1" to="." method="_on_NavigationButton1_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton1" to="." method="_on_NavigationButton1_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton1" to="." method="_on_NavigationButton1_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton2" to="." method="_on_NavigationButton2_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton2" to="." method="_on_NavigationButton2_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton2" to="." method="_on_NavigationButton2_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_pressed"]
