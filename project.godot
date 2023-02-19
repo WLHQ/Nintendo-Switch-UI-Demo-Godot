@@ -11,10 +11,10 @@ config_version=4
 [application]
 
 config/name="Nintendo Switch UI Demo"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://Home.tscn"
 boot_splash/image="res://Assets/Images/Splashes/10750360.png"
 config/icon="res://Assets/Images/Icons/NX-60x60.png"
-config/windows_native_icon="res://Assets/Images/Icons/NX-16x16.ico"
+config/windows_native_icon="res://Assets/Images/Icons/NX-60x60.ico"
 
 [display]
 
